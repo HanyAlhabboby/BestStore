@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/BestStore/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDatabaseConnection_EAEB4F5E3E",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/beststoremvcdbserver/databases/BestStoreMVC_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DatabaseConnection"
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/BestStore/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDatabaseConnection1_06C92A4C76",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/beststoremvc1dbserver/databases/BestStoreMVC_db1",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DatabaseConnection1"
+    }
+  }
+}
